@@ -11,7 +11,10 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-            //NO LO HEMOS DADO
+            $nombre = "Alex";
+            $apellido = "Canton";
+            $edad = 20;
+            echo '<a href=equipo.php?nombre='.$nombre.'&apellido='.$apellido.'&edad='.$edad.'>Acceder</a>';
         ?>
     </body>
 </html>
